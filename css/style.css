@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: 'Times New Roman', Times, serif;
+}
+header{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 5em;
+    background-color:thistle;
+}
+/* }
+header nav{
+    position: absolute;
+    top: 2em;
+    right: 2%;
+   
+}
+header nav ul{
+    display: flex;
+    text-decoration: none;
+   
+    
+}
+
+header nav ul li{
+  padding: 0 15px;
+    font-size: 1.35em;
+    list-style: none;
+   
+    
+    
+    
+}
+header nav ul li a li ul{
+    display: none;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+header nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+  
+}
+header nav ul li:hover a{
+    color: grey;
+    transition: 500ms;
+    list-style: none;
+    text-decoration: none;
+}
+
+header nav ul li ul{
+    display: none;
+    margin-left: -170px;
+    padding-top: 15px;
+    
+
+   
+   
+}
+header nav ul li ul li{
+    border: 2px solid red;
+   padding-top: 10px;
+}
+
+
+
+
+
+header nav ul li:hover ul{
+    display:block;
+    
+
+
+
+  
+  
+   
+    
+   
+
+}
+
+
+
+header nav ul  ul li:hover a{
+    background-color: lightslategray;
+    border-radius: 5px;
+    padding: 3px;
+    color: whitesmoke;
+}
+ */
+
+
+.links{
+    position: absolute;
+    top: 2em;
+    left: 2%;
+    
+}
+.links a{
+    padding: 10px;
+    font-size: 1.6em;
+}
+.pet{
+    position: absolute;
+    top: 1.6em;
+    left: 2%;
+}
+.pet i{
+    font-size: 2em;
+    color: white;
+  
+    animation:macka 6s ease-in-out infinite;
+}
+.footerGoga::after{
+ content: ' ';
+ display: inline-flex;
+ height: 12px;
+ width: 12px;
+ background-color: firebrick;
+ transform: rotate(30deg);
+ margin-left: 5px;
+}
+
+@keyframes macka{
+    0%{transform: translate(0px);}
+    50%{transform: translate(50px)}
+    100%{transform: translate(0px);}
+}
+
+
+@media(max-width: 992px) {
+    .maju{
+        margin-bottom: 20px;
+    }
+    .av{
+        margin-bottom: 20px;
+
+    }
+  header nav ul li{
+        font-size: 1.2em;
+    }
+
+  }
+  @media(max-width:990px){
+      header nav ul li ul li{
+        padding: 5px;
+    }
+
+  }
+  
+
+
+  @media(max-width: 768px){
+   
+
+    header nav ul li{
+        font-size: 1.1em;
+    }
+    header nav ul li ul{
+        padding-top: 30px;
+        
+       
+    }
+    .pet i{
+        font-size: 1.8em;
+        color: white;
+      
+        animation:macka 6s ease-in-out infinite;
+    }
+
+
+  }
+
+  @media(max-width: 540px){
+    header nav ul li{
+        font-size: 0.95em;
+    }
+    .pet i{
+        font-size: 1.65em;
+        color: white;
+      
+        animation:macka 6s ease-in-out infinite;
+    }
+
+
+
+
+
+  }
